@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Red Bull Energy Investment - Daily High Return Platform</title>
+  <meta name="description" content="Red Bull Official Investment Portal. Earn ₹245 to ₹19,053 Daily with Instant UPI Auto-Withdrawal. Connect directly on WhatsApp to claim your ₹500 Welcome Bonus.">
+  <meta name="keywords" content="redbull invest, redbull investment, daily income, online earning, upi withdrawal, make money online">
+  
+  <!-- Open Graph / Meta Ads Optimization -->
+  <meta property="og:title" content="Red Bull Energy Invest - Start Daily Earning Today">
+  <meta property="og:description" content="Invest Small, Earn Big Daily. 100% Instant UPI Auto-Payouts via PhonePe, Paytm & Google Pay.">
+  <meta property="og:image" content="/images/redbull_banner.jpg">
+  <meta property="og:type" content="website">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="/images/redbull_logo.jpg">
+  
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-announcement-bar">
+    <div class="container announcement-content">
+      <span class="badge-fire"><i class="fa-solid fa-bolt"></i> LIMITED TIME OFFER</span>
+      <p class="announcement-text">आज ही WhatsApp पर जुड़ें और पाएं <span class="highlight-gold">₹500 Free Sign-Up Bonus</span>!</p>
+      <div class="countdown-timer" id="heroCountdown">
+        <i class="fa-regular fa-clock"></i> <span id="timerDisplay">03:42:18</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="main-header">
+    <div class="container header-container">
+      <div class="brand-identity">
+        <img src="/images/redbull_logo.jpg" alt="Red Bull Invest Logo" class="brand-logo">
+        <div class="brand-meta">
+          <div class="brand-title">REDBULL <span class="text-accent">INVEST</span></div>
+          <div class="brand-subtitle"><i class="fa-solid fa-circle-check text-verified"></i> Official Partner Portal</div>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <div class="live-status-pill">
+          <span class="status-dot"></span>
+          <span class="status-text"><strong id="headerOnlineCount">540+</strong> Users Online</span>
+        </div>
+        <a href="https://wa.me/917231874241?text=Hyy**baby" class="btn-header-wa track-wa" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>WhatsApp Chat</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-glow-bg"></div>
+    <div class="container hero-container">
+      
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fa-solid fa-shield-halved"></i> 100% Verified Daily Earnings
+        </div>
+
+        <h1 class="hero-title">
+          भारत का सबसे भरोसेमंद <br>
+          <span class="gradient-text">Daily Earning & Payout</span> प्लेटफॉर्म
+        </h1>
+
+        <p class="hero-description">
+          सिर्फ <strong>₹285 से शुरुआत</strong> करें और कमाएं <strong>₹245 से ₹19,053 तक Daily Income</strong>। 
+          24 घंटे के अंदर बिना किसी रुकावट आपके PhonePe, Paytm, या GPay में सीधा Payout!
+        </p>
+
+        <!-- Main WhatsApp CTA Box -->
+        <div class="hero-cta-wrapper">
+          <a href="https://wa.me/917231874241?text=Hyy**baby" class="btn-whatsapp-giant track-wa" target="_blank" rel="noopener">
+            <div class="btn-wa-icon-glow">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div class="btn-wa-text">
+              <span class="btn-wa-primary">व्हाट्सएप पर तुरंत शुरू करें 👉</span>
+              <span class="btn-wa-sub">Click Here to Chat • Get ₹500 Free Bonus</span>
+            </div>
+          </a>
+          
+          <div class="hero-trust-chips">
+            <div class="trust-chip"><i class="fa-solid fa-bolt-lightning text-yellow"></i> Instant UPI Payout</div>
+            <div class="trust-chip"><i class="fa-solid fa-lock text-green"></i> 100% Capital Safe</div>
+            <div class="trust-chip"><i class="fa-solid fa-headset text-cyan"></i> 24x7 Direct Support</div>
+          </div>
+        </div>
+
+        <!-- Metric Badges -->
+        <div class="hero-metrics">
+          <div class="metric-card">
+            <div class="metric-value" id="statInvestors">48,250+</div>
+            <div class="metric-label">Active Investors</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value highlight-gold" id="statPayouts">₹28,40,000+</div>
+            <div class="metric-label">Today's Payouts</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value highlight-green">99.8%</div>
+            <div class="metric-label">Success Rate</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Card -->
+      <div class="hero-visual">
+        <div class="hero-card-glass">
+          <div class="card-glow-top"></div>
+          
+          <div class="hero-card-banner">
+            <img src="/images/redbull_banner.jpg" alt="Red Bull Energy Invest" class="card-banner-img">
+            <div class="banner-tag">🔥 HOT PRODUCT A</div>
+          </div>
+
+          <div class="hero-card-body">
+            <div class="card-plan-header">
+              <span class="plan-badge-mini">MOST POPULAR</span>
+              <span class="plan-rating"><i class="fa-solid fa-star text-yellow"></i> 4.9/5 (18.4k reviews)</span>
+            </div>
+
+            <h3 class="card-plan-name">Product A – Daily Withdrawal</h3>
+            
+            <div class="card-plan-grid">
+              <div class="plan-data-item">
+                <span class="data-title">Investment</span>
+                <span class="data-value price-text">₹285</span>
+              </div>
+              <div class="plan-data-item">
+                <span class="data-title">Daily Income</span>
+                <span class="data-value highlight-green">₹245 / Day</span>
+              </div>
+              <div class="plan-data-item">
+                <span class="data-title">Total Return</span>
+                <span class="data-value highlight-gold">₹7,350</span>
+              </div>
+              <div class="plan-data-item">
+                <span class="data-title">Cycle Period</span>
+                <span class="data-value">30 Days</span>
+              </div>
+            </div>
+
+            <div class="card-progress-box">
+              <div class="progress-labels">
+                <span>Today's Available Slots</span>
+                <strong class="text-accent">92% Claimed</strong>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" style="width: 92%;"></div>
+              </div>
+            </div>
+
+            <a href="https://wa.me/917231874241?text=Hyy**baby" class="btn-card-activate track-wa" target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp"></i> Activate on WhatsApp Now
+            </a>
+
+            <div class="card-security-note">
+              <i class="fa-solid fa-shield-check text-green"></i> 100% Capital Guaranteed By Red Bull Portal
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Live Marquee Ticker -->
+  <section class="live-ticker-section">
+    <div class="ticker-header">
+      <span class="ticker-dot"></span>
+      <span class="ticker-label">LIVE PAYOUTS</span>
+    </div>
+    <div class="ticker-track-wrapper">
+      <div class="ticker-track" id="tickerTrack">
+        <!-- Dynamically populated ticker items -->
+        <div class="ticker-item"><i class="fa-solid fa-circle-check text-green"></i> Rahul M. (Jaipur) just received <strong>₹4,354</strong> via PhonePe</div>
+        <div class="ticker-item"><i class="fa-solid fa-circle-check text-green"></i> Aman V. (Delhi) just received <strong>₹8,586</strong> via Paytm</div>
+        <div class="ticker-item"><i class="fa-solid fa-circle-check text-green"></i> Pooja S. (Indore) just received <strong>₹19,053</strong> via Google Pay</div>
+        <div class="ticker-item"><i class="fa-solid fa-circle-check text-green"></i> Vikas K. (Patna) just received <strong>₹2,200</strong> via UPI</div>
+        <div class="ticker-item"><i class="fa-solid fa-circle-check text-green"></i> Sunil R. (Lucknow) just received <strong>₹7,350</strong> via PhonePe</div>
+        <div class="ticker-item"><i class="fa-solid fa-circle-check text-green"></i> Manoj B. (Surat) just received <strong>₹4,354</strong> via Paytm</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Profit Calculator -->
+  <section class="calculator-section" id="calculator">
+    <div class="container">
+      <div class="section-title-wrap text-center">
+        <span class="sub-badge"><i class="fa-solid fa-calculator"></i> PROFIT CALCULATOR</span>
+        <h2 class="section-heading">अपनी कमाई खुद कैलकुलेट करें</h2>
+        <p class="section-subtext">अपनी सुविधानुसार प्लान चुनें और देखें आपकी Daily और Total कमाई कितनी होगी</p>
+      </div>
+
+      <div class="calculator-box">
+        <div class="calc-plans-selector">
+          <label class="calc-label">Select Your Investment Amount:</label>
+          <div class="calc-buttons-grid" id="calcPlanButtons">
+            <button class="calc-btn active" data-price="285" data-daily="245" data-total="7350" data-cycle="30" data-title="Product A">
+              ₹285 <span class="btn-sub">Starter</span>
+            </button>
+            <button class="calc-btn badge-hot" data-price="720" data-daily="4354" data-total="8708" data-cycle="2" data-title="Offer Plan">
+              ₹720 <span class="btn-sub">🔥 2-Day Offer</span>
+            </button>
+            <button class="calc-btn" data-price="1000" data-daily="8586" data-total="25758" data-cycle="3" data-title="Product C">
+              ₹1,000 <span class="btn-sub">High ROI</span>
+            </button>
+            <button class="calc-btn" data-price="2200" data-daily="1967" data-total="37373" data-cycle="19" data-title="Product D">
+              ₹2,200 <span class="btn-sub">Popular</span>
+            </button>
+            <button class="calc-btn badge-vip" data-price="4735" data-daily="19053" data-total="38106" data-cycle="2" data-title="Product F VIP">
+              ₹4,735 <span class="btn-sub">👑 VIP Club</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="calc-results-card">
+          <div class="calc-result-header">
+            <span class="calc-plan-selected-name" id="calcSelectedName">Product A – Daily Withdrawal</span>
+            <span class="calc-cycle-badge" id="calcSelectedCycle">30 Days Validity</span>
+          </div>
+
+          <div class="calc-numbers-grid">
+            <div class="calc-metric">
+              <span class="calc-metric-label">You Invest</span>
+              <span class="calc-metric-val" id="calcInvest">₹285</span>
+            </div>
+            <div class="calc-metric">
+              <span class="calc-metric-label">Daily Income</span>
+              <span class="calc-metric-val highlight-green" id="calcDaily">₹245 / day</span>
+            </div>
+            <div class="calc-metric">
+              <span class="calc-metric-label">Total Return</span>
+              <span class="calc-metric-val highlight-gold" id="calcTotal">₹7,350</span>
+            </div>
+          </div>
+
+          <div class="calc-cta-row">
+            <a href="https://wa.me/917231874241?text=Hyy**baby" class="btn-calc-cta track-wa" target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp"></i> Activate This Plan on WhatsApp
+            </a>
+            <div class="calc-note"><i class="fa-solid fa-clock-rotate-left"></i> Withdrawal available daily 24×7 directly to UPI</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Investment Plans Section -->
+  <section class="plans-section" id="plans">
+    <div class="container">
+      <div class="section-title-wrap text-center">
+        <span class="sub-badge"><i class="fa-solid fa-gem"></i> OFFICIAL PACKAGES</span>
+        <h2 class="section-heading">Top Performing Investment Plans</h2>
+        <p class="section-subtext">हर बजट के लिए सबसे बेहतरीन और तेज रिटर्न देने वाले प्लान</p>
+      </div>
+
+      <div class="plans-grid">
+        
+        <!-- Plan 1: Offer Plan (Featured Hot) -->
+        <div class="plan-card featured-plan">
+          <div class="plan-card-tag"><i class="fa-solid fa-fire"></i> SPECIAL 2-DAY OFFER</div>
+          <div class="plan-card-img-wrap">
+            <img src="/images/redbull_plan_offer.jpg" alt="Offer Plan Daily Withdrawal">
+          </div>
+          <div class="plan-card-info">
+            <h3 class="plan-card-title">Offer Plan - Daily Withdrawal</h3>
+            <p class="plan-card-desc">2 दिन का सबसे फास्ट रिटर्न प्लान। रोज सुबह सीधा बैंक में पैसा।</p>
+            
+            <div class="plan-details-table">
+              <div class="detail-row">
+                <span>Investment Price:</span>
+                <strong class="text-white">₹720</strong>
+              </div>
+              <div class="detail-row">
+                <span>Daily Earning:</span>
+                <strong class="highlight-green">₹4,354 / day</strong>
+              </div>
+              <div class="detail-row">
+                <span>Total Return:</span>
+                <strong class="highlight-gold">₹8,708</strong>
+              </div>
+              <div class="detail-row">
+                <span>Plan Duration:</span>
+                <strong class="text-cyan">2 Days</strong>
+              </div>
+            </div>
+
+            <div class="plan-urgency">
+              <i class="fa-solid fa-users text-accent"></i> 18 slots remaining for today
+            </div>
+
+            <a href="https://wa.me/917231874241?text=Hyy**baby" class="btn-plan-buy track-wa" target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp"></i> Join on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Plan 2: Product A (Starter) -->
+        <div class="plan-card">
+          <div class="plan-card-badge">STARTER CHOICE</div>
+          <div class="plan-card-img-wrap">
+            <img src="/images/redbull_plan_a.jpg" alt="Product A Daily Withdrawal">
+          </div>
+          <div class="plan-card-info">
+            <h3 class="plan-card-title">Product A – Daily Withdrawal</h3>
+            <p class="plan-card-desc">कम बजट से शुरुआत करने वालों के लिए सबसे सुरक्षित प्लान।</p>
+            
+            <div class="plan-details-table">
+              <div class="detail-row">
+                <span>Investment Price:</span>
+                <strong class="text-white">₹285</strong>
+              </div>
+              <div class="detail-row">
+                <span>Daily Earning:</span>
+                <strong class="highlight-green">₹245 / day</strong>
+              </div>
+              <div class="detail-row">
+                <span>Total Return:</span>
+                <strong class="highlight-gold">₹7,350</strong>
+              </div>
+              <div class="detail-row">
+                <span>Plan Duration:</span>
+                <strong class="text-cyan">30 Days</strong>
+              </div>
+            </div>
+
+            <a href="https://wa.me/917231874241?text=Hyy**baby" class="btn-plan-buy track-wa" target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp"></i> Join on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Plan 3: Product C -->
+        <div class="plan-card">
+          <div class="plan-card-badge">HIGH PROFIT</div>
+          <div class="plan-card-img-wrap">
+            <img src="/images/redbull_plan_c.jpg" alt="Product C Daily Withdrawal">
+          </div>
+          <div class="plan-card-info">
+            <h3 class="plan-card-title">Product C – Daily Withdrawal</h3>
+            <p class="plan-card-desc">सिर्फ 3 दिन में 25 गुना से ज्यादा कमाई का बेहतरीन मौका।</p>
+            
+            <div class="plan-details-table">
+              <div class="detail-row">
+                <span>Investment Price:</span>
+                <strong class="text-white">₹1,000</strong>
+              </div>
+              <div class="detail-row">
+                <span>Daily Earning:</span>
+                <strong class="highlight-green">₹8,586 / day</strong>
+              </div>
+              <div class="detail-row">
+                <span>Total Return:</span>
+                <strong class="highlight-gold">₹25,758</strong>
+              </div>
+              <div class="detail-row">
+                <span>Plan Duration:</span>
+                <strong class="text-cyan">3 Days</strong>
+              </div>
+            </div>
+
+            <a href="https://wa.me/917231874241?text=Hyy**baby" class="btn-plan-buy track-wa" target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp"></i> Join on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Plan 4: Product D -->
+        <div class="plan-card">
+          <div class="plan-card-badge">LONG TERM</div>
+          <div class="plan-card-img-wrap">
+            <img src="/images/redbull_plan_d.jpg" alt="Product D Daily Withdrawal">
+          </div>
+          <div class="plan-card-info">
+            <h3 class="plan-card-title">Product D – Daily Withdrawal</h3>
+            <p class="plan-card-desc">19 दिनों का रेगुलर इनकम प्लान, हर दिन ₹1,967 अकाउंट में।</p>
+            
+            <div class="plan-details-table">
+              <div class="detail-row">
+                <span>Investment Price:</span>
+                <strong class="text-white">₹2,200</strong>
+              </div>
+              <div class="detail-row">
+                <span>Daily Earning:</span>
+                <strong class="highlight-green">₹1,967 / day</strong>
+              </div>
+              <div class="detail-row">
+                <span>Total Return:</span>
+                <strong class="highlight-gold">₹37,373</strong>
+              </div>
+              <div class="detail-row">
+                <span>Plan Duration:</span>
+                <strong class="text-cyan">19 Days</strong>
+              </div>
+            </div>
+
+            <a href="https://wa.me/917231874241?text=Hyy**baby" class="btn-plan-buy track-wa" target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp"></i> Join on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Plan 5: Product F VIP -->
+        <div class="plan-card vip-card">
+          <div class="plan-card-tag vip-tag"><i class="fa-solid fa-crown"></i> VIP ROYAL PLAN</div>
+          <div class="plan-card-img-wrap">
+            <img src="/images/redbull_plan_f.jpg" alt="Product F VIP Daily Withdrawal">
+          </div>
+          <div class="plan-card-info">
+            <h3 class="plan-card-title">Product F VIP – Daily Withdrawal</h3>
+            <p class="plan-card-desc">हाई इन्वेस्टर्स के लिए स्पेशल 2 दिन में ₹38,106 का गारंटीड रिटर्न।</p>
+            
+            <div class="plan-details-table">
+              <div class="detail-row">
+                <span>Investment Price:</span>
+                <strong class="text-white">₹4,735</strong>
+              </div>
+              <div class="detail-row">
+                <span>Daily Earning:</span>
+                <strong class="highlight-green">₹19,053 / day</strong>
+              </div>
+              <div class="detail-row">
+                <span>Total Return:</span>
+                <strong class="highlight-gold">₹38,106</strong>
+              </div>
+              <div class="detail-row">
+                <span>Plan Duration:</span>
+                <strong class="text-cyan">2 Days</strong>
+              </div>
+            </div>
+
+            <a href="https://wa.me/917231874241?text=Hyy**baby" class="btn-plan-buy vip-btn track-wa" target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp"></i> Join VIP on WhatsApp
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works-section" id="how-it-works">
+    <div class="container">
+      <div class="section-title-wrap text-center">
+        <span class="sub-badge"><i class="fa-solid fa-diagram-project"></i> 3 SIMPLE STEPS</span>
+        <h2 class="section-heading">काम कैसे करता है?</h2>
+        <p class="section-subtext">शुरू करने में सिर्फ 2 मिनट लगते हैं। आज ही अपनी कमाई चालू करें।</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">01</div>
+          <div class="step-icon-wrap"><i class="fa-brands fa-whatsapp"></i></div>
+          <h3 class="step-title">WhatsApp पर मैसेज भेजें</h3>
+          <p class="step-desc">नीचे दिए बटन पर क्लिक करें और हमें WhatsApp पर मैसेज भेजें। हमारी टीम 10 सेकंड में आपको एक्टिवेशन लिंक और गाइड भेजेगी।</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">02</div>
+          <div class="step-icon-wrap"><i class="fa-solid fa-qrcode"></i></div>
+          <h3 class="step-title">प्लान चुनें और एक्टिवेट करें</h3>
+          <p class="step-desc">अपनी पसंद का प्लान चुनें (₹285, ₹720 या अन्य) और PhonePe, Google Pay या Paytm UPI से तुरंत एक्टिवेट करें।</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">03</div>
+          <div class="step-icon-wrap"><i class="fa-solid fa-money-bill-transfer"></i></div>
+          <h3 class="step-title">रोजाना बैंक में पैसे पाएं</h3>
+          <p class="step-desc">आपकी डेली कमाई रोज़ाना आपके वॉलेट में जुड़ेगी। 1-क्लिक में तुरंत अपने बैंक खाते या UPI में पैसा निकालें।</p>
+        </div>
+      </div>
+
+      <div class="steps-cta-center">
+        <a href="https://wa.me/917231874241?text=Hyy**baby" class="btn-whatsapp-giant track-wa" target="_blank" rel="noopener">
+          <div class="btn-wa-icon-glow"><i class="fa-brands fa-whatsapp"></i></div>
+          <div class="btn-wa-text">
+            <span class="btn-wa-primary">शुरू करने के लिए WhatsApp पर चैट करें</span>
+            <span class="btn-wa-sub">Click Here to Chat with Customer Manager</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Payment Methods & Security -->
+  <section class="security-section">
+    <div class="container">
+      <div class="security-card-box">
+        <div class="sec-left">
+          <span class="badge-fire"><i class="fa-solid fa-shield-halved"></i> 100% SECURE TRANSACTIONS</span>
+          <h3 class="sec-heading">सभी प्रमुख UPI और बैंक सपोर्टेड हैं</h3>
+          <p class="sec-sub">कोई हिडन चार्ज नहीं, कोई झंझट नहीं। तुरंत डिपॉजिट और 30 सेकंड के अंदर ऑटो विड्रॉल।</p>
+          <div class="sec-badges-list">
+            <div class="sec-item"><i class="fa-solid fa-check text-green"></i> 256-Bit SSL Bank Encryption</div>
+            <div class="sec-item"><i class="fa-solid fa-check text-green"></i> 0% Withdrawal Fee</div>
+            <div class="sec-item"><i class="fa-solid fa-check text-green"></i> 24×7 Instant Auto Payout</div>
+          </div>
+        </div>
+
+        <div class="sec-right">
+          <div class="payment-logos-grid">
+            <div class="pay-logo-card">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <span>PhonePe</span>
+            </div>
+            <div class="pay-logo-card">
+              <i class="fa-brands fa-google-pay"></i>
+              <span>Google Pay</span>
+            </div>
+            <div class="pay-logo-card">
+              <i class="fa-solid fa-wallet"></i>
+              <span>Paytm</span>
+            </div>
+            <div class="pay-logo-card">
+              <i class="fa-solid fa-building-columns"></i>
+              <span>All Banks</span>
+            </div>
+            <div class="pay-logo-card">
+              <i class="fa-solid fa-qrcode"></i>
+              <span>Instant QR</span>
+            </div>
+            <div class="pay-logo-card">
+              <i class="fa-solid fa-arrows-rotate"></i>
+              <span>IMPS / NEFT</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- User Reviews & Testimonials -->
+  <section class="reviews-section">
+    <div class="container">
+      <div class="section-title-wrap text-center">
+        <span class="sub-badge"><i class="fa-solid fa-star"></i> INVESTOR REVIEWS</span>
+        <h2 class="section-heading">हमारे संतुष्ट निवेशकों की राय</h2>
+        <p class="section-subtext">हजारों भारतीय यूजर्स रोज इस प्लेटफॉर्म से बिना रिस्क कमाई कर रहे हैं</p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-text">"मैंने सिर्फ ₹720 वाला ऑफर प्लान लिया था और सच में 2 दिन में ₹8,700 का विड्रॉल मेरे PhonePe में आ गया। कस्टमर सपोर्ट बहुत हेल्पफुल है!"</p>
+          <div class="review-user">
+            <div class="review-avatar">RK</div>
+            <div class="review-details">
+              <strong>Rakesh Kumar</strong>
+              <span>Jaipur, Rajasthan • <i class="fa-solid fa-circle-check text-green"></i> Verified</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-text">"Pehle mujhe bharosa nahi tha but pehle din hi ₹245 ka withdrawal test kiya aur 30 second me aa gaya. Ab main VIP plan use kar raha hoon."</p>
+          <div class="review-user">
+            <div class="review-avatar">AS</div>
+            <div class="review-details">
+              <strong>Ankit Sharma</strong>
+              <span>Delhi NCR • <i class="fa-solid fa-circle-check text-green"></i> Verified</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-text">"WhatsApp par link lekar join kiya. Daily subah 10 baje return add hota hai aur instant Paytm me transfer ho jata hai. Best platform!"</p>
+          <div class="review-user">
+            <div class="review-avatar">MS</div>
+            <div class="review-details">
+              <strong>Mamta Sahu</strong>
+              <span>Indore, MP • <i class="fa-solid fa-circle-check text-green"></i> Verified</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section (Accordion) -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-title-wrap text-center">
+        <span class="sub-badge"><i class="fa-solid fa-circle-question"></i> FREQUENTLY ASKED QUESTIONS</span>
+        <h2 class="section-heading">अक्सर पूछे जाने वाले सवाल</h2>
+        <p class="section-subtext">शुरू करने से पहले आपके सभी सवालों के आसान जवाब</p>
+      </div>
+
+      <div class="faq-accordion-wrap">
+        
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>1. शुरुआत करने के लिए कम से कम कितने रुपये चाहिए?</span>
+            <i class="fa-solid fa-chevron-down faq-arrow"></i>
+          </button>
+          <div class="faq-answer">
+            <p>आप सिर्फ <strong>₹285</strong> से शुरुआत कर सकते हैं। इसमें आपको रोजाना ₹245 की इनकम मिलती है, जिसे आप अपने बैंक अकाउंट या UPI में ट्रांसफर कर सकते हैं।</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>2. विड्रॉल (Withdrawal) कितने समय में बैंक में आता है?</span>
+            <i class="fa-solid fa-chevron-down faq-arrow"></i>
+          </button>
+          <div class="faq-answer">
+            <p>विड्रॉल रिक्वेस्ट सबमिट करने के मात्र <strong>5 से 30 सेकंड</strong> के अंदर पैसा सीधे आपके PhonePe, Paytm, Google Pay या बैंक खाते में क्रेडिट हो जाता है। यह सिस्टम 24x7 ऑटोमेटेड काम करता है।</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>3. मैं कैसे रजिस्टर और एक्टिवेट कर सकता हूं?</span>
+            <i class="fa-solid fa-chevron-down faq-arrow"></i>
+          </button>
+          <div class="faq-answer">
+            <p>रजिस्टर करना बेहद आसान है! बस पेज पर दिए गए <strong>"WhatsApp पर संपर्क करें"</strong> बटन पर क्लिक करें। हमारी सपोर्ट टीम आपको 10 सेकंड में ऑफिशियल रजिस्ट्रेशन लिंक और QR कोड उपलब्ध करा देगी।</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>4. क्या यह प्लेटफॉर्म पूरी तरह सुरक्षित है?</span>
+            <i class="fa-solid fa-chevron-down faq-arrow"></i>
+          </button>
+          <div class="faq-answer">
+            <p>हाँ, 100% सुरक्षित है। सभी पेमेंट्स 256-bit बैंक-ग्रेड एन्क्रिप्शन और वेरिफाइड UPI गेटवे से प्रोसेस होते हैं। 48,000 से ज्यादा एक्टिव मेंबर्स नियमित रूप से Payout प्राप्त कर रहे हैं।</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>5. क्या मैं अपने दोस्तों को रेफर करके भी कमा सकता हूं?</span>
+            <i class="fa-solid fa-chevron-down faq-arrow"></i>
+          </button>
+          <div class="faq-answer">
+            <p>हाँ! आपको 3-लेवल टीम कमीशन मिलता है। जब भी आपका कोई दोस्त आपके इनविटेशन लिंक से जुड़ेगा, आपको तुरंत कैश बोनस और लाइफटाइम कमीशन मिलेगा।</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Callout -->
+  <section class="final-cta-section">
+    <div class="container">
+      <div class="final-cta-card">
+        <div class="final-glow"></div>
+        <h2 class="final-heading">देर किस बात की? आज ही अपनी पहली कमाई शुरू करें!</h2>
+        <p class="final-sub">अभी WhatsApp पर मैसेज करें और स्पेशल ₹500 वेलकम बोनस क्लेम करें।</p>
+        
+        <a href="https://wa.me/917231874241?text=Hyy**baby" class="btn-whatsapp-giant track-wa" target="_blank" rel="noopener">
+          <div class="btn-wa-icon-glow"><i class="fa-brands fa-whatsapp"></i></div>
+          <div class="btn-wa-text">
+            <span class="btn-wa-primary">व्हाट्सएप पर संपर्क करें 👉</span>
+            <span class="btn-wa-sub">Click Here to Chat • Instant Response</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="footer-logo-wrap">
+          <img src="/images/redbull_logo.jpg" alt="Red Bull Logo" class="footer-logo">
+          <span>REDBULL INVEST PORTAL</span>
+        </div>
+        <p class="footer-disclaimer">
+          © 2026 Red Bull Energy Investment Portal. All rights reserved.<br>
+          Authorized Direct Investment & Distribution Platform.
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="#calculator">Profit Calculator</a>
+        <a href="#plans">Packages</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#faq">FAQ</a>
+        <a href="/ping" target="_blank">System Health / Ping</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky Mobile Bottom Bar (High Conversion For Ads) -->
+  <div class="sticky-mobile-bar">
+    <div class="sticky-bar-info">
+      <span class="sticky-pulse"></span>
+      <div class="sticky-text">
+        <strong>Daily Income: ₹245 - ₹19k</strong>
+        <span>₹500 Bonus Active Now</span>
+      </div>
+    </div>
+    <a href="https://wa.me/917231874241?text=Hyy**baby" class="btn-sticky-wa track-wa" target="_blank" rel="noopener">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span>Start On WhatsApp</span>
+    </a>
+  </div>
+
+  <!-- Floating WhatsApp Widget Button -->
+  <div class="floating-wa-widget">
+    <div class="floating-wa-bubble" id="waBubble">
+      <button class="bubble-close" onclick="closeWaBubble()">&times;</button>
+      <div class="bubble-header">
+        <span class="bubble-badge">🟢 Online</span>
+        <strong>Red Bull Support Manager</strong>
+      </div>
+      <p class="bubble-body">नमस्ते! क्या आप आज का <strong>₹500 फ्री बोनस</strong> क्लेम करना चाहते हैं? अभी WhatsApp पर मैसेज भेजें!</p>
+      <a href="https://wa.me/917231874241?text=Hyy**baby" class="bubble-btn track-wa" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+    </div>
+
+    <a href="https://wa.me/917231874241?text=Hyy**baby" class="floating-wa-btn track-wa" target="_blank" rel="noopener" aria-label="WhatsApp Support">
+      <span class="wa-ripple"></span>
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="wa-online-dot"></span>
+    </a>
+  </div>
+
+  <!-- Real-Time Payout Toast Popup (Notification) -->
+  <div class="payout-toast" id="payoutToast">
+    <div class="toast-icon">
+      <i class="fa-solid fa-circle-check"></i>
+    </div>
+    <div class="toast-content">
+      <strong id="toastUser">Rahul S. (Jaipur)</strong>
+      <span id="toastDetail">Received ₹4,354 via PhonePe (18s ago)</span>
+    </div>
+  </div>
+
+  <!-- Exit-Intent / Inactivity Bonus Modal -->
+  <div class="bonus-modal-overlay" id="bonusModal">
+    <div class="bonus-modal-card">
+      <button class="modal-close-btn" onclick="closeBonusModal()">&times;</button>
+      <div class="modal-badge"><i class="fa-solid fa-gift"></i> SPECIAL VIP OFFER</div>
+      <h3 class="modal-title">रुकिए! आपके लिए खास ₹500 बोनस! 🎁</h3>
+      <p class="modal-text">अभी WhatsApp पर <strong>"Hyy**baby"</strong> मैसेज भेजें और अपने वॉलेट में तुरंत <strong>₹500 फ्री बैलेंस</strong> पाएं।</p>
+      
+      <div class="modal-countdown">
+        <span>Offer Expiring In:</span>
+        <strong id="modalTimer">02:59</strong>
+      </div>
+
+      <a href="https://wa.me/917231874241?text=Hyy**baby" class="btn-modal-wa track-wa" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i> क्लेम करें WhatsApp पर
+      </a>
+    </div>
+  </div>
+
+  <!-- Javascript -->
+  <script src="/js/app.js"></script>
+</body>
+</html>

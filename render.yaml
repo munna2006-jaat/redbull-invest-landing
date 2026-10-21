@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: redbull-invest-landing
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /ping
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: WHATSAPP_URL
+        value: https://wa.me/917231874241?text=Hyy**baby

@@ -4,7 +4,7 @@ const http = require('http');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const WHATSAPP_URL = process.env.WHATSAPP_URL || 'https://wa.me/917231874241?text=Hyy**baby';
+const WHATSAPP_URL = process.env.WHATSAPP_URL || 'https://chat.whatsapp.com/EDgsKtZ9HesJ3HUvBHaUro?s=cl&p=a&mlu=4&ilr=4';
 
 // Enable JSON body parsing and form data
 app.use(express.json());

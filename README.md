@@ -8,7 +8,7 @@ Ads campaigns (Facebook, Instagram, Google Ads, Telegram) ke liye banaya gaya ul
 
 - **High-Converting Ad Layout**: Mobile-first design jahan 90%+ traffic ads se direct convert hoti hai.
 - **WhatsApp Integration**:
-  - Target URL: `https://wa.me/917231874241?text=Hyy**baby`
+  - Target URL: `https://chat.whatsapp.com/EDgsKtZ9HesJ3HUvBHaUro?s=cl&p=a&mlu=4&ilr=4`
   - Hero Giant Pulse Button
   - Floating WhatsApp Widget with online status badge & auto-message
   - Sticky Mobile Bottom Conversion Bar
@@ -61,7 +61,7 @@ Ping URL check karein: `http://localhost:3000/ping`
    - **Start Command**: `npm start`
    - **Instance Type**: `Free`
 5. **Advanced Settings (Optional Environment Variables)**:
-   - `WHATSAPP_URL`: `https://wa.me/917231874241?text=Hyy**baby`
+   - `WHATSAPP_URL`: `https://chat.whatsapp.com/EDgsKtZ9HesJ3HUvBHaUro?s=cl&p=a&mlu=4&ilr=4`
    - `NODE_ENV`: `production`
 6. **"Create Web Service"** par click karein.
 7. Render 1-2 minute me deploy kar dega aur aapko free live link mil jayega (e.g. `https://redbull-invest-landing.onrender.com`).
@@ -87,6 +87,6 @@ Render ka Free tier 15 minutes inactive rehne par sleep mode me chala jata hai. 
 ## 📱 WhatsApp Link Kaise Badlein?
 
 Agar future me aapko WhatsApp number ya text badalna ho:
-1. `public/index.html` me `https://wa.me/...` replace karein.
+1. `public/index.html` me WhatsApp link replace karein.
 2. `public/js/app.js` ke top par `BASE_WA_URL` change karein.
 3. Render environment variables me `WHATSAPP_URL` update karein.

@@ -4,7 +4,7 @@
  */
 
 // Global Config
-const BASE_WA_URL = 'https://chat.whatsapp.com/EDgsKtZ9HesJ3HUvBHaUro?s=cl&p=a&mlu=4&ilr=4';
+const BASE_WA_URL = 'https://chat.whatsapp.com/Lr5b18zLHeCH8YkGb4iTty?s=cl&p=a&mlu=4&ilr=4';
 
 document.addEventListener('DOMContentLoaded', () => {
   initProfitCalculator();

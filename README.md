@@ -8,7 +8,7 @@ Ads campaigns (Facebook, Instagram, Google Ads, Telegram) ke liye banaya gaya ul
 
 - **High-Converting Ad Layout**: Mobile-first design jahan 90%+ traffic ads se direct convert hoti hai.
 - **WhatsApp Integration**:
-  - Target URL: `https://chat.whatsapp.com/EDgsKtZ9HesJ3HUvBHaUro?s=cl&p=a&mlu=4&ilr=4`
+  - Target URL: `https://chat.whatsapp.com/Lr5b18zLHeCH8YkGb4iTty?s=cl&p=a&mlu=4&ilr=4`
   - Hero Giant Pulse Button
   - Floating WhatsApp Widget with online status badge & auto-message
   - Sticky Mobile Bottom Conversion Bar
@@ -61,7 +61,7 @@ Ping URL check karein: `http://localhost:3000/ping`
    - **Start Command**: `npm start`
    - **Instance Type**: `Free`
 5. **Advanced Settings (Optional Environment Variables)**:
-   - `WHATSAPP_URL`: `https://chat.whatsapp.com/EDgsKtZ9HesJ3HUvBHaUro?s=cl&p=a&mlu=4&ilr=4`
+   - `WHATSAPP_URL`: `https://chat.whatsapp.com/Lr5b18zLHeCH8YkGb4iTty?s=cl&p=a&mlu=4&ilr=4`
    - `NODE_ENV`: `production`
 6. **"Create Web Service"** par click karein.
 7. Render 1-2 minute me deploy kar dega aur aapko free live link mil jayega (e.g. `https://redbull-invest-landing.onrender.com`).
